@@ -1,1 +1,9 @@
-# Togzzi16.github.io
+top = Tk()  
+  
+top.geometry("200x100")  
+  
+b = Button(top,text = "Simple")  
+  
+b.pack()  
+  
+top.mainaloop()
